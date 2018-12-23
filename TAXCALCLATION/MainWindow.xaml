@@ -41,11 +41,15 @@
                 
             </Grid>
             <Separator ></Separator>
+            <TextBlock Text="Applied Taxes" HorizontalAlignment="Center" 
+                       FontSize="18" FontWeight="Bold"/>
             <Grid>
+                
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="0.5*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
+               
                 <StackPanel Grid.Column="0">
                     <CheckBox IsChecked="True">ACD</CheckBox>
                     <CheckBox IsChecked="True">CD</CheckBox>
@@ -67,6 +71,8 @@
             <TextBox Text="Grand Total" FontStyle="Italic" FontWeight="UltraLight" 
                      Width="200" Margin="10 10 10 10" Padding="5" FontSize="24"
                      IsEnabled="False"/>
+            <Button Content="Submit" HorizontalAlignment="Center" Padding="7" FontSize="14" 
+                    Background="Beige"/>
 
         </StackPanel>
         
